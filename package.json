@@ -1,0 +1,31 @@
+{
+  "name": "reviews",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Isabella-417/typescript-review.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Isabella-417/typescript-review/issues"
+  },
+  "homepage": "https://github.com/Isabella-417/typescript-review#readme",
+  "devDependencies": {
+    "@types/jest": "^26.0.22",
+    "ts-jest": "^26.5.4"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "testEnviroment": "node",
+    "coveragePathIgnorePatterns": [
+      "/node_modules/"
+    ]
+  }
+}
